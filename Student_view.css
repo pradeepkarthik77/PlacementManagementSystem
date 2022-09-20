@@ -1,0 +1,49 @@
+html{
+   background:url("AMRITA-01.jpg") no-repeat;
+   background-size: cover;
+   height:100%;
+   background-color: #000;
+   background-attachment: fixed;
+}
+
+body {
+   color: black;
+   font-family: Arial, san-serif;
+}
+
+.wrapper
+{
+   overflow-x: auto;
+}
+
+.htmltable {
+  margin: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 95%;
+  margin-top: 30px;
+}
+
+.htmltable thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+td {
+   border-bottom: 1px solid #ddd;
+   padding: 10px;
+   }
+
+   th{
+       border-bottom: 1px solid #ddd;
+       padding: 10px;
+       background-color: rgb(146, 21, 17); 
+       color: rgb(241, 206, 7); 
+   }
+ 
+tr:hover {background-color: lightgrey;}
